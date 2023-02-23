@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  height: 15vh;
+}
+.lists {
+  list-style: none;
+  margin-right: 80px;
+}
+.list-all {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+.lft-nav a:hover {
+  background-color: antiquewhite;
+}
+.lft-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.lft-nav {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 30px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.rgt-nav {
+  width: 20%;
+  /* margin: 20px; */
+  padding-left: 30px;
+  position: relative;
+}
+.rgt-nav img {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+}
+.subbtn {
+  margin-left: 30px;
+  /* height: 35px; */
+  width: 100px;
+  background-color: rgb(255, 76, 0, 100%);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.subbtn span {
+  /* position: inherit;
+    top: -10px; */
+  font-family: "Anton", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.sub {
+  position: absolute;
+  right: 160px;
+  display: flex;
+  width: 30%;
+}
